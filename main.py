@@ -7,3 +7,10 @@ elif age == 21:
   print("no way you are my age!")
 elif age > 21: 
   print("Whats up unc. What was the jurassic period like?")
+pi = float(input("One more thing... WHat is pi to 4 digits? "))
+if pi == 3.141 or pi == 3.142:
+  print("You are correct!")
+elif pi > 3.142:
+  print("You are too high!")
+elif pi < 3.141:
+  print("You are too low!")
